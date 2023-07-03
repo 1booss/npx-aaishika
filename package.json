@@ -1,11 +1,12 @@
 {
   "name": "aaishika",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Aaishika’s Introduction on Terminal.",
-  "main": "index.js",
+  "exports": "./index.js",
   "bin": {
     "aaishika": "./bin/index.js"
   },
+  "type": "module",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
